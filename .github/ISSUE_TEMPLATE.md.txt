@@ -1,0 +1,10 @@
+## What happened?
+(Describe the issue, expected vs actual, and steps to reproduce.)
+
+## Sample file
+(Describe the PDF traits; do not attach malicious PDFs.)
+
+## Environment
+- OS:
+- Python:
+- App version/commit:
