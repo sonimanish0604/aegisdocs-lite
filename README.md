@@ -12,6 +12,17 @@ A **feedback-first** FastAPI service that flags risky traits in PDFs:
 
 ## Quickstart
 
-```bash
-pip install -r requirements.txt
-uvicorn app.main:app --reload
+# 1) create & activate venv
+python -m venv .venv
+# Windows
+.\.venv\Scripts\activate
+# macOS/Linux
+# source .venv/bin/activate
+
+# 2) install deps
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+
+# 3) run (more reliable on Windows PATH)
+python -m uvicorn app.main:app --reload
+# App: http://127.0.0.1:8000  |  Docs: http://127.0.0.1:8000/docs
